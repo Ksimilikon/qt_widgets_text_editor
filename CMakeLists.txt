@@ -8,10 +8,18 @@ qt_standard_project_setup()
 qt_add_executable(text_editor
     WIN32 MACOSX_BUNDLE
     main.cpp
-    widget.cpp
-    widget.h
+
+
     mainlayout.h mainlayout.cpp
     mainwindow.h mainwindow.cpp
+    styleclass.h styleclass.cpp
+    tests/tst_styleclasstest.cpp
+    preprocessor/preprocessor.h preprocessor/preprocessor.cpp
+    io/saver.h io/saver.cpp
+    io/import.h io/import.cpp
+    io/export.h io/export.cpp
+    preprocessor/textsegment.h preprocessor/textsegment.cpp
+    preprocessor/textparagraph.h preprocessor/textparagraph.cpp
 
 )
 

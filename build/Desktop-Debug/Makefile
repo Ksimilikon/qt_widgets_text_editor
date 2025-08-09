@@ -200,6 +200,78 @@ text_editor_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor_autogen.dir/build.make CMakeFiles/text_editor_autogen.dir/build
 .PHONY : text_editor_autogen/fast
 
+io/export.o: io/export.cpp.o
+.PHONY : io/export.o
+
+# target to build an object file
+io/export.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/export.cpp.o
+.PHONY : io/export.cpp.o
+
+io/export.i: io/export.cpp.i
+.PHONY : io/export.i
+
+# target to preprocess a source file
+io/export.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/export.cpp.i
+.PHONY : io/export.cpp.i
+
+io/export.s: io/export.cpp.s
+.PHONY : io/export.s
+
+# target to generate assembly for a file
+io/export.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/export.cpp.s
+.PHONY : io/export.cpp.s
+
+io/import.o: io/import.cpp.o
+.PHONY : io/import.o
+
+# target to build an object file
+io/import.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/import.cpp.o
+.PHONY : io/import.cpp.o
+
+io/import.i: io/import.cpp.i
+.PHONY : io/import.i
+
+# target to preprocess a source file
+io/import.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/import.cpp.i
+.PHONY : io/import.cpp.i
+
+io/import.s: io/import.cpp.s
+.PHONY : io/import.s
+
+# target to generate assembly for a file
+io/import.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/import.cpp.s
+.PHONY : io/import.cpp.s
+
+io/saver.o: io/saver.cpp.o
+.PHONY : io/saver.o
+
+# target to build an object file
+io/saver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/saver.cpp.o
+.PHONY : io/saver.cpp.o
+
+io/saver.i: io/saver.cpp.i
+.PHONY : io/saver.i
+
+# target to preprocess a source file
+io/saver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/saver.cpp.i
+.PHONY : io/saver.cpp.i
+
+io/saver.s: io/saver.cpp.s
+.PHONY : io/saver.s
+
+# target to generate assembly for a file
+io/saver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/saver.cpp.s
+.PHONY : io/saver.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -272,6 +344,126 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+preprocessor/preprocessor.o: preprocessor/preprocessor.cpp.o
+.PHONY : preprocessor/preprocessor.o
+
+# target to build an object file
+preprocessor/preprocessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o
+.PHONY : preprocessor/preprocessor.cpp.o
+
+preprocessor/preprocessor.i: preprocessor/preprocessor.cpp.i
+.PHONY : preprocessor/preprocessor.i
+
+# target to preprocess a source file
+preprocessor/preprocessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.i
+.PHONY : preprocessor/preprocessor.cpp.i
+
+preprocessor/preprocessor.s: preprocessor/preprocessor.cpp.s
+.PHONY : preprocessor/preprocessor.s
+
+# target to generate assembly for a file
+preprocessor/preprocessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.s
+.PHONY : preprocessor/preprocessor.cpp.s
+
+preprocessor/textparagraph.o: preprocessor/textparagraph.cpp.o
+.PHONY : preprocessor/textparagraph.o
+
+# target to build an object file
+preprocessor/textparagraph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o
+.PHONY : preprocessor/textparagraph.cpp.o
+
+preprocessor/textparagraph.i: preprocessor/textparagraph.cpp.i
+.PHONY : preprocessor/textparagraph.i
+
+# target to preprocess a source file
+preprocessor/textparagraph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.i
+.PHONY : preprocessor/textparagraph.cpp.i
+
+preprocessor/textparagraph.s: preprocessor/textparagraph.cpp.s
+.PHONY : preprocessor/textparagraph.s
+
+# target to generate assembly for a file
+preprocessor/textparagraph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.s
+.PHONY : preprocessor/textparagraph.cpp.s
+
+preprocessor/textsegment.o: preprocessor/textsegment.cpp.o
+.PHONY : preprocessor/textsegment.o
+
+# target to build an object file
+preprocessor/textsegment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o
+.PHONY : preprocessor/textsegment.cpp.o
+
+preprocessor/textsegment.i: preprocessor/textsegment.cpp.i
+.PHONY : preprocessor/textsegment.i
+
+# target to preprocess a source file
+preprocessor/textsegment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.i
+.PHONY : preprocessor/textsegment.cpp.i
+
+preprocessor/textsegment.s: preprocessor/textsegment.cpp.s
+.PHONY : preprocessor/textsegment.s
+
+# target to generate assembly for a file
+preprocessor/textsegment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.s
+.PHONY : preprocessor/textsegment.cpp.s
+
+styleclass.o: styleclass.cpp.o
+.PHONY : styleclass.o
+
+# target to build an object file
+styleclass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleclass.cpp.o
+.PHONY : styleclass.cpp.o
+
+styleclass.i: styleclass.cpp.i
+.PHONY : styleclass.i
+
+# target to preprocess a source file
+styleclass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleclass.cpp.i
+.PHONY : styleclass.cpp.i
+
+styleclass.s: styleclass.cpp.s
+.PHONY : styleclass.s
+
+# target to generate assembly for a file
+styleclass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleclass.cpp.s
+.PHONY : styleclass.cpp.s
+
+tests/tst_styleclasstest.o: tests/tst_styleclasstest.cpp.o
+.PHONY : tests/tst_styleclasstest.o
+
+# target to build an object file
+tests/tst_styleclasstest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o
+.PHONY : tests/tst_styleclasstest.cpp.o
+
+tests/tst_styleclasstest.i: tests/tst_styleclasstest.cpp.i
+.PHONY : tests/tst_styleclasstest.i
+
+# target to preprocess a source file
+tests/tst_styleclasstest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.i
+.PHONY : tests/tst_styleclasstest.cpp.i
+
+tests/tst_styleclasstest.s: tests/tst_styleclasstest.cpp.s
+.PHONY : tests/tst_styleclasstest.s
+
+# target to generate assembly for a file
+tests/tst_styleclasstest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.s
+.PHONY : tests/tst_styleclasstest.cpp.s
+
 text_editor_autogen/mocs_compilation.o: text_editor_autogen/mocs_compilation.cpp.o
 .PHONY : text_editor_autogen/mocs_compilation.o
 
@@ -296,30 +488,6 @@ text_editor_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.s
 .PHONY : text_editor_autogen/mocs_compilation.cpp.s
 
-widget.o: widget.cpp.o
-.PHONY : widget.o
-
-# target to build an object file
-widget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/widget.cpp.o
-.PHONY : widget.cpp.o
-
-widget.i: widget.cpp.i
-.PHONY : widget.i
-
-# target to preprocess a source file
-widget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/widget.cpp.i
-.PHONY : widget.cpp.i
-
-widget.s: widget.cpp.s
-.PHONY : widget.s
-
-# target to generate assembly for a file
-widget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/widget.cpp.s
-.PHONY : widget.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -335,6 +503,15 @@ help:
 	@echo "... text_editor_autogen"
 	@echo "... text_editor_autogen_timestamp_deps"
 	@echo "... text_editor"
+	@echo "... io/export.o"
+	@echo "... io/export.i"
+	@echo "... io/export.s"
+	@echo "... io/import.o"
+	@echo "... io/import.i"
+	@echo "... io/import.s"
+	@echo "... io/saver.o"
+	@echo "... io/saver.i"
+	@echo "... io/saver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -344,12 +521,24 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... preprocessor/preprocessor.o"
+	@echo "... preprocessor/preprocessor.i"
+	@echo "... preprocessor/preprocessor.s"
+	@echo "... preprocessor/textparagraph.o"
+	@echo "... preprocessor/textparagraph.i"
+	@echo "... preprocessor/textparagraph.s"
+	@echo "... preprocessor/textsegment.o"
+	@echo "... preprocessor/textsegment.i"
+	@echo "... preprocessor/textsegment.s"
+	@echo "... styleclass.o"
+	@echo "... styleclass.i"
+	@echo "... styleclass.s"
+	@echo "... tests/tst_styleclasstest.o"
+	@echo "... tests/tst_styleclasstest.i"
+	@echo "... tests/tst_styleclasstest.s"
 	@echo "... text_editor_autogen/mocs_compilation.o"
 	@echo "... text_editor_autogen/mocs_compilation.i"
 	@echo "... text_editor_autogen/mocs_compilation.s"
-	@echo "... widget.o"
-	@echo "... widget.i"
-	@echo "... widget.s"
 .PHONY : help
 
 

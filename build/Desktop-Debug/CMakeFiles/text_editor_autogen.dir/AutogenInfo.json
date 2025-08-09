@@ -471,6 +471,24 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/ksi/reps/text_editor/io/export.h",
+			"MU",
+			"HR73DCNJIQ/moc_export.cpp",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/io/import.h",
+			"MU",
+			"HR73DCNJIQ/moc_import.cpp",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/io/saver.h",
+			"MU",
+			"HR73DCNJIQ/moc_saver.cpp",
+			null
+		],
+		[
 			"/home/ksi/reps/text_editor/mainlayout.h",
 			"MU",
 			"EWIEGA46WW/moc_mainlayout.cpp",
@@ -483,9 +501,27 @@
 			null
 		],
 		[
-			"/home/ksi/reps/text_editor/widget.h",
+			"/home/ksi/reps/text_editor/preprocessor/preprocessor.h",
 			"MU",
-			"EWIEGA46WW/moc_widget.cpp",
+			"7VWOBLBJVM/moc_preprocessor.cpp",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/preprocessor/textparagraph.h",
+			"MU",
+			"7VWOBLBJVM/moc_textparagraph.cpp",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/preprocessor/textsegment.h",
+			"MU",
+			"7VWOBLBJVM/moc_textsegment.cpp",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/styleclass.h",
+			"MU",
+			"EWIEGA46WW/moc_styleclass.cpp",
 			null
 		]
 	],
@@ -547,10 +583,25 @@
 	"SETTINGS_FILE" : "/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/text_editor_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/ksi/reps/text_editor/io/export.cpp", "MU", null ],
+		[ "/home/ksi/reps/text_editor/io/import.cpp", "MU", null ],
+		[ "/home/ksi/reps/text_editor/io/saver.cpp", "MU", null ],
 		[ "/home/ksi/reps/text_editor/main.cpp", "MU", null ],
 		[ "/home/ksi/reps/text_editor/mainlayout.cpp", "MU", null ],
 		[ "/home/ksi/reps/text_editor/mainwindow.cpp", "MU", null ],
-		[ "/home/ksi/reps/text_editor/widget.cpp", "MU", null ]
+		[
+			"/home/ksi/reps/text_editor/preprocessor/preprocessor.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/preprocessor/textparagraph.cpp",
+			"MU",
+			null
+		],
+		[ "/home/ksi/reps/text_editor/preprocessor/textsegment.cpp", "MU", null ],
+		[ "/home/ksi/reps/text_editor/styleclass.cpp", "MU", null ],
+		[ "/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

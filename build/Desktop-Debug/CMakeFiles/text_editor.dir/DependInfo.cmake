@@ -8,11 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ksi/reps/text_editor/io/export.cpp" "CMakeFiles/text_editor.dir/io/export.cpp.o" "gcc" "CMakeFiles/text_editor.dir/io/export.cpp.o.d"
+  "/home/ksi/reps/text_editor/io/import.cpp" "CMakeFiles/text_editor.dir/io/import.cpp.o" "gcc" "CMakeFiles/text_editor.dir/io/import.cpp.o.d"
+  "/home/ksi/reps/text_editor/io/saver.cpp" "CMakeFiles/text_editor.dir/io/saver.cpp.o" "gcc" "CMakeFiles/text_editor.dir/io/saver.cpp.o.d"
   "/home/ksi/reps/text_editor/main.cpp" "CMakeFiles/text_editor.dir/main.cpp.o" "gcc" "CMakeFiles/text_editor.dir/main.cpp.o.d"
   "/home/ksi/reps/text_editor/mainlayout.cpp" "CMakeFiles/text_editor.dir/mainlayout.cpp.o" "gcc" "CMakeFiles/text_editor.dir/mainlayout.cpp.o.d"
   "/home/ksi/reps/text_editor/mainwindow.cpp" "CMakeFiles/text_editor.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/text_editor.dir/mainwindow.cpp.o.d"
+  "/home/ksi/reps/text_editor/preprocessor/preprocessor.cpp" "CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o" "gcc" "CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o.d"
+  "/home/ksi/reps/text_editor/preprocessor/textparagraph.cpp" "CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o" "gcc" "CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o.d"
+  "/home/ksi/reps/text_editor/preprocessor/textsegment.cpp" "CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o" "gcc" "CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o.d"
+  "/home/ksi/reps/text_editor/styleclass.cpp" "CMakeFiles/text_editor.dir/styleclass.cpp.o" "gcc" "CMakeFiles/text_editor.dir/styleclass.cpp.o.d"
+  "/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp" "CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o" "gcc" "CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o.d"
   "/home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/mocs_compilation.cpp" "CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o.d"
-  "/home/ksi/reps/text_editor/widget.cpp" "CMakeFiles/text_editor.dir/widget.cpp.o" "gcc" "CMakeFiles/text_editor.dir/widget.cpp.o.d"
   "" "text_editor" "gcc" "CMakeFiles/text_editor.dir/link.d"
   )
 

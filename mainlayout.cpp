@@ -10,7 +10,7 @@ MainLayout::MainLayout(QWidget *parent)
 {
     m_leftTopTextEdit =     new QPlainTextEdit(this);
     m_leftBottomTextEdit =  new QPlainTextEdit(this);
-    m_rightTextEdit =       new QPlainTextEdit(this);
+    m_rightTextEdit =       new QTextBrowser(this);
 
     QWidget *leftWidget = new QWidget(this);
     QVBoxLayout *leftLayout = new QVBoxLayout(leftWidget);
@@ -38,8 +38,6 @@ MainLayout::MainLayout(QWidget *parent)
     m_rightTextEdit->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     m_leftTopTextEdit->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 
-
-    m_rightTextEdit->setEnabled(false);
     //bindings
     connect(m_leftBottomTextEdit, &QPlainTextEdit::textChanged,
             this, &MainLayout::slotTextProcessed);
@@ -54,7 +52,7 @@ void MainLayout::slotTextProcessed(){
     QString resText = textToProcessed(rawText);
 
     m_rightTextEdit->blockSignals(true);
-    m_rightTextEdit->setPlainText(resText);
+    m_rightTextEdit->setHtml(resText);
     m_rightTextEdit->blockSignals(false);
 }
 void MainLayout::slotTextRaw(){
@@ -68,69 +66,7 @@ void MainLayout::slotTextVar(){
 }
 
 QString MainLayout::textToProcessed(const QString& text){
-    QString result = "";
-    bool escapeMode = false;
-    for (int i=0; i<text.length();i++){
-        QChar ch = text[i];
-        if(escapeMode){
-            if(ch != '%'){
-                result.append('\\');
-            }
-            result.append(ch);
-            escapeMode = false;
-            continue;
-        }
-        if(ch == '\\'){
-            escapeMode = true;
-        }
-        else if(ch == '%'){
-            QString varName = "";
-            if(i<text.length()){
-#ifdef DEBUG
-                qDebug() << "get varName start";
-#endif
-                int j = i+1;
-                while(j<text.length()){
-                    const QChar nextCh = text[j];
-                    if(!(nextCh == " " || nextCh.category() == QChar::Other_Control
-                        || nextCh.category() == QChar::Punctuation_Other)){
-                        varName.append(nextCh);
-                        j++;
-                    }
-                    else{
-#ifdef DEBUG
-                        qDebug() << "BREAK get VAR CYCLE";
-#endif
-                        break;
-                    }
-                }
-#ifdef DEBUG
-                qDebug() << "VARNAME " << varName+"*";
-#endif
-                if(!varName.isEmpty() && globalTextVars.contains(varName)){
-                    result.append(globalTextVars.value(varName));
-#ifdef DEBUG
-                    qDebug() << "CHANGE VAR TO VALUE: " << globalTextVars.value(varName);
-#endif
-                    //skip var chars
-                    i=j-1;
-                }
-                else{
-                    result.append('%');
-                    result.append(varName);
-                    i=j-1;
-                }
-            }
-        }
-        else{
-            result.append(ch);
-        }
-
-        if(escapeMode){
-            result.append('\\');
-        }
-    }
-    return result;
+    return preprocessor::preprocessToHtml(text, globalTextVars);
 }
 QString MainLayout::textToRaw(const QString& text){
     return text;

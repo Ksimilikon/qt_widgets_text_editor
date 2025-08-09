@@ -4,9 +4,16 @@ text_editor: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o \
   CMakeFiles/text_editor.dir/main.cpp.o \
-  CMakeFiles/text_editor.dir/widget.cpp.o \
   CMakeFiles/text_editor.dir/mainlayout.cpp.o \
   CMakeFiles/text_editor.dir/mainwindow.cpp.o \
+  CMakeFiles/text_editor.dir/styleclass.cpp.o \
+  CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o \
+  CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o \
+  CMakeFiles/text_editor.dir/io/saver.cpp.o \
+  CMakeFiles/text_editor.dir/io/import.cpp.o \
+  CMakeFiles/text_editor.dir/io/export.cpp.o \
+  CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o \
+  CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o \
   /usr/lib/libQt6Widgets.so.6.9.1 \
   /usr/lib/libQt6Gui.so.6.9.1 \
   /usr/lib/libGLX.so \
@@ -94,11 +101,25 @@ CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o:
 
 CMakeFiles/text_editor.dir/main.cpp.o:
 
-CMakeFiles/text_editor.dir/widget.cpp.o:
-
 CMakeFiles/text_editor.dir/mainlayout.cpp.o:
 
 CMakeFiles/text_editor.dir/mainwindow.cpp.o:
+
+CMakeFiles/text_editor.dir/styleclass.cpp.o:
+
+CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o:
+
+CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o:
+
+CMakeFiles/text_editor.dir/io/saver.cpp.o:
+
+CMakeFiles/text_editor.dir/io/import.cpp.o:
+
+CMakeFiles/text_editor.dir/io/export.cpp.o:
+
+CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o:
+
+CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o:
 
 /usr/lib/libQt6Widgets.so.6.9.1:
 

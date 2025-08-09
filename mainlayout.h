@@ -1,13 +1,12 @@
 #ifndef MAINLAYOUT_H
 #define MAINLAYOUT_H
 
-#include <QtWidgets/QtWidgets>
 #include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QVBoxLayout>
 #include <QSplitter>
-
-#include "textvar.h"
+#include <QTextBrowser>
+#include "preprocessor/preprocessor.h"
 
 class MainLayout : public QWidget
 {
@@ -23,7 +22,7 @@ private slots:
 private:
     QPlainTextEdit *m_leftTopTextEdit;
     QPlainTextEdit *m_leftBottomTextEdit;
-    QPlainTextEdit *m_rightTextEdit;
+    QTextBrowser *m_rightTextEdit;
     QSplitter *m_splitter;
 
     QString textToProcessed(const QString& text);
