@@ -240,6 +240,34 @@ CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ksi/reps/text_editor/preprocessor/textparagraph.cpp -o CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.s
 
+CMakeFiles/text_editor.dir/styleform.cpp.o: CMakeFiles/text_editor.dir/flags.make
+CMakeFiles/text_editor.dir/styleform.cpp.o: /home/ksi/reps/text_editor/styleform.cpp
+CMakeFiles/text_editor.dir/styleform.cpp.o: CMakeFiles/text_editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/text_editor.dir/styleform.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_editor.dir/styleform.cpp.o -MF CMakeFiles/text_editor.dir/styleform.cpp.o.d -o CMakeFiles/text_editor.dir/styleform.cpp.o -c /home/ksi/reps/text_editor/styleform.cpp
+
+CMakeFiles/text_editor.dir/styleform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/text_editor.dir/styleform.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ksi/reps/text_editor/styleform.cpp > CMakeFiles/text_editor.dir/styleform.cpp.i
+
+CMakeFiles/text_editor.dir/styleform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/text_editor.dir/styleform.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ksi/reps/text_editor/styleform.cpp -o CMakeFiles/text_editor.dir/styleform.cpp.s
+
+CMakeFiles/text_editor.dir/styleviewwidget.cpp.o: CMakeFiles/text_editor.dir/flags.make
+CMakeFiles/text_editor.dir/styleviewwidget.cpp.o: /home/ksi/reps/text_editor/styleviewwidget.cpp
+CMakeFiles/text_editor.dir/styleviewwidget.cpp.o: CMakeFiles/text_editor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/text_editor.dir/styleviewwidget.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/text_editor.dir/styleviewwidget.cpp.o -MF CMakeFiles/text_editor.dir/styleviewwidget.cpp.o.d -o CMakeFiles/text_editor.dir/styleviewwidget.cpp.o -c /home/ksi/reps/text_editor/styleviewwidget.cpp
+
+CMakeFiles/text_editor.dir/styleviewwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/text_editor.dir/styleviewwidget.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ksi/reps/text_editor/styleviewwidget.cpp > CMakeFiles/text_editor.dir/styleviewwidget.cpp.i
+
+CMakeFiles/text_editor.dir/styleviewwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/text_editor.dir/styleviewwidget.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ksi/reps/text_editor/styleviewwidget.cpp -o CMakeFiles/text_editor.dir/styleviewwidget.cpp.s
+
 # Object files for target text_editor
 text_editor_OBJECTS = \
 "CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o" \
@@ -253,7 +281,9 @@ text_editor_OBJECTS = \
 "CMakeFiles/text_editor.dir/io/import.cpp.o" \
 "CMakeFiles/text_editor.dir/io/export.cpp.o" \
 "CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o" \
-"CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o"
+"CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o" \
+"CMakeFiles/text_editor.dir/styleform.cpp.o" \
+"CMakeFiles/text_editor.dir/styleviewwidget.cpp.o"
 
 # External object files for target text_editor
 text_editor_EXTERNAL_OBJECTS =
@@ -270,6 +300,8 @@ text_editor: CMakeFiles/text_editor.dir/io/import.cpp.o
 text_editor: CMakeFiles/text_editor.dir/io/export.cpp.o
 text_editor: CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o
 text_editor: CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o
+text_editor: CMakeFiles/text_editor.dir/styleform.cpp.o
+text_editor: CMakeFiles/text_editor.dir/styleviewwidget.cpp.o
 text_editor: CMakeFiles/text_editor.dir/build.make
 text_editor: CMakeFiles/text_editor.dir/compiler_depend.ts
 text_editor: /usr/lib/libQt6Widgets.so.6.9.1
@@ -278,7 +310,7 @@ text_editor: /usr/lib/libGLX.so
 text_editor: /usr/lib/libOpenGL.so
 text_editor: /usr/lib/libQt6Core.so.6.9.1
 text_editor: CMakeFiles/text_editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable text_editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable text_editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/text_editor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

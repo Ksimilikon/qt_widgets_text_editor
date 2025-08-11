@@ -395,6 +395,12 @@ CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtGui/qcolor.h \
  /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../preprocessor/textparagraph.h \
  /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../preprocessor/textsegment.h \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../styleviewwidget.h \
+ /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtWidgets/QVBoxLayout \
+ /usr/include/qt6/QtWidgets/QPushButton \
+ /usr/include/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/qt6/QtWidgets/qabstractbutton.h \
  /usr/include/qt6/QtCore/qtmochelpers.h \
  /usr/include/qt6/QtCore/qtmocconstants.h \
  /usr/include/qt6/QtCore/q20algorithm.h \
@@ -404,4 +410,34 @@ CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtWidgets/QMainWindow \
  /usr/include/qt6/QtWidgets/qmainwindow.h \
  /usr/include/qt6/QtWidgets/qtabwidget.h \
- /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../mainlayout.h
+ /usr/include/qt6/QtWidgets/QStackedWidget \
+ /usr/include/qt6/QtWidgets/qstackedwidget.h \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../mainlayout.h \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../styleform.h \
+ /usr/include/qt6/QtGui/QValidator /usr/include/qt6/QtGui/qvalidator.h \
+ /usr/include/qt6/QtCore/qregularexpression.h \
+ /usr/include/qt6/QtWidgets/QLabel /usr/include/qt6/QtWidgets/qlabel.h \
+ /usr/include/qt6/QtGui/qpicture.h /usr/include/qt6/QtWidgets/QFormLayout \
+ /usr/include/qt6/QtWidgets/qformlayout.h \
+ /usr/include/qt6/QtWidgets/QLayout /usr/include/qt6/QtWidgets/qlayout.h \
+ /usr/include/qt6/QtWidgets/QLineEdit \
+ /usr/include/qt6/QtWidgets/qlineedit.h \
+ /usr/include/qt6/QtWidgets/QComboBox \
+ /usr/include/qt6/QtWidgets/qcombobox.h \
+ /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/qt6/QtWidgets/qstyleoption.h \
+ /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+ /usr/include/qt6/QtGui/qvalidator.h /usr/include/qt6/QtWidgets/qslider.h \
+ /usr/include/qt6/QtWidgets/qabstractslider.h \
+ /usr/include/qt6/QtWidgets/qstyle.h /usr/include/qt6/QtWidgets/qtabbar.h \
+ /usr/include/qt6/QtWidgets/qrubberband.h \
+ /usr/include/qt6/QtCore/qabstractitemmodel.h \
+ /usr/include/qt6/QtWidgets/QDoubleSpinBox \
+ /usr/include/qt6/QtWidgets/qspinbox.h \
+ /usr/include/qt6/QtWidgets/QFontComboBox \
+ /usr/include/qt6/QtWidgets/qfontcombobox.h \
+ /usr/include/qt6/QtWidgets/qcombobox.h \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/moc_styleform.cpp \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../styleform.h \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/moc_styleviewwidget.cpp \
+ /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/../../../../styleviewwidget.h

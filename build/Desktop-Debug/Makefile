@@ -440,6 +440,54 @@ styleclass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleclass.cpp.s
 .PHONY : styleclass.cpp.s
 
+styleform.o: styleform.cpp.o
+.PHONY : styleform.o
+
+# target to build an object file
+styleform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleform.cpp.o
+.PHONY : styleform.cpp.o
+
+styleform.i: styleform.cpp.i
+.PHONY : styleform.i
+
+# target to preprocess a source file
+styleform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleform.cpp.i
+.PHONY : styleform.cpp.i
+
+styleform.s: styleform.cpp.s
+.PHONY : styleform.s
+
+# target to generate assembly for a file
+styleform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleform.cpp.s
+.PHONY : styleform.cpp.s
+
+styleviewwidget.o: styleviewwidget.cpp.o
+.PHONY : styleviewwidget.o
+
+# target to build an object file
+styleviewwidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleviewwidget.cpp.o
+.PHONY : styleviewwidget.cpp.o
+
+styleviewwidget.i: styleviewwidget.cpp.i
+.PHONY : styleviewwidget.i
+
+# target to preprocess a source file
+styleviewwidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleviewwidget.cpp.i
+.PHONY : styleviewwidget.cpp.i
+
+styleviewwidget.s: styleviewwidget.cpp.s
+.PHONY : styleviewwidget.s
+
+# target to generate assembly for a file
+styleviewwidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleviewwidget.cpp.s
+.PHONY : styleviewwidget.cpp.s
+
 tests/tst_styleclasstest.o: tests/tst_styleclasstest.cpp.o
 .PHONY : tests/tst_styleclasstest.o
 
@@ -533,6 +581,12 @@ help:
 	@echo "... styleclass.o"
 	@echo "... styleclass.i"
 	@echo "... styleclass.s"
+	@echo "... styleform.o"
+	@echo "... styleform.i"
+	@echo "... styleform.s"
+	@echo "... styleviewwidget.o"
+	@echo "... styleviewwidget.i"
+	@echo "... styleviewwidget.s"
 	@echo "... tests/tst_styleclasstest.o"
 	@echo "... tests/tst_styleclasstest.i"
 	@echo "... tests/tst_styleclasstest.s"

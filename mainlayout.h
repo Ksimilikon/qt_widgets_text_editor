@@ -7,12 +7,14 @@
 #include <QSplitter>
 #include <QTextBrowser>
 #include "preprocessor/preprocessor.h"
+#include "styleviewwidget.h"
 
 class MainLayout : public QWidget
 {
     Q_OBJECT
 public:
     explicit MainLayout(QWidget *parent = nullptr);
+    StyleViewWidget* getStyleView() const {return m_rightStyleView;}
 
 private slots:
     void slotTextProcessed();
@@ -20,9 +22,10 @@ private slots:
     void slotTextVar();
 
 private:
-    QPlainTextEdit *m_leftTopTextEdit;
-    QPlainTextEdit *m_leftBottomTextEdit;
+    QPlainTextEdit *m_leftVars;
+    QPlainTextEdit *m_leftTextEdit;
     QTextBrowser *m_rightTextEdit;
+    StyleViewWidget *m_rightStyleView;
     QSplitter *m_splitter;
 
     QString textToProcessed(const QString& text);

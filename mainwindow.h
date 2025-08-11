@@ -2,7 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QStackedWidget>
 #include "mainlayout.h"
+#include "styleform.h"
 
 class MainWindow : public QMainWindow
 {
@@ -10,8 +12,12 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
 
+private slots:
+    void slotHandleSwitchStyleView();
+    void slotHandleSwitchMain();
+
 private:
-    MainLayout *m_mainWidget;
+    QStackedWidget *m_widgetsStack;
 };
 
 #endif // MAINWINDOW_H

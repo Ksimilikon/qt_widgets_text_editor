@@ -18,8 +18,12 @@ class StyleClass
 {
 public:
     static void addStyle(QString nameClass, StyleProperties properties);
+    static QString getHtml();
     static QString getStyleSheet();
     static QString getStyleCss(QString nameClass);
+    static StyleProperties getStyle(QString name);
+    static StyleProperties getDefaultStyle();
+    static QHash<QString, StyleProperties> getStyles();
 private:
     static QHash<QString, StyleProperties> styles;
 };

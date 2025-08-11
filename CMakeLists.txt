@@ -20,6 +20,8 @@ qt_add_executable(text_editor
     io/export.h io/export.cpp
     preprocessor/textsegment.h preprocessor/textsegment.cpp
     preprocessor/textparagraph.h preprocessor/textparagraph.cpp
+    styleform.h styleform.cpp
+    styleviewwidget.h styleviewwidget.cpp
 
 )
 

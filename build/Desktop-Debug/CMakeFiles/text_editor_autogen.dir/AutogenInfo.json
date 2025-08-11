@@ -523,6 +523,18 @@
 			"MU",
 			"EWIEGA46WW/moc_styleclass.cpp",
 			null
+		],
+		[
+			"/home/ksi/reps/text_editor/styleform.h",
+			"MU",
+			"EWIEGA46WW/moc_styleform.cpp",
+			null
+		],
+		[
+			"/home/ksi/reps/text_editor/styleviewwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_styleviewwidget.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -601,6 +613,8 @@
 		],
 		[ "/home/ksi/reps/text_editor/preprocessor/textsegment.cpp", "MU", null ],
 		[ "/home/ksi/reps/text_editor/styleclass.cpp", "MU", null ],
+		[ "/home/ksi/reps/text_editor/styleform.cpp", "MU", null ],
+		[ "/home/ksi/reps/text_editor/styleviewwidget.cpp", "MU", null ],
 		[ "/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

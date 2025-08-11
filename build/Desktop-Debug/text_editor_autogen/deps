@@ -23,6 +23,10 @@ text_editor_autogen/timestamp: \
 	/home/ksi/reps/text_editor/preprocessor/textsegment.h \
 	/home/ksi/reps/text_editor/styleclass.cpp \
 	/home/ksi/reps/text_editor/styleclass.h \
+	/home/ksi/reps/text_editor/styleform.cpp \
+	/home/ksi/reps/text_editor/styleform.h \
+	/home/ksi/reps/text_editor/styleviewwidget.cpp \
+	/home/ksi/reps/text_editor/styleviewwidget.h \
 	/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
@@ -299,6 +303,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtCore/q20utility.h \
 	/usr/include/qt6/QtCore/q23utility.h \
 	/usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+	/usr/include/qt6/QtCore/qabstractitemmodel.h \
 	/usr/include/qt6/QtCore/qalgorithms.h \
 	/usr/include/qt6/QtCore/qanystringview.h \
 	/usr/include/qt6/QtCore/qarraydata.h \
@@ -375,6 +380,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtCore/qprocessordetection.h \
 	/usr/include/qt6/QtCore/qrect.h \
 	/usr/include/qt6/QtCore/qrefcount.h \
+	/usr/include/qt6/QtCore/qregularexpression.h \
 	/usr/include/qt6/QtCore/qscopedpointer.h \
 	/usr/include/qt6/QtCore/qscopeguard.h \
 	/usr/include/qt6/QtCore/qset.h \
@@ -430,6 +436,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtCore/qyieldcpu.h \
 	/usr/include/qt6/QtGui/QColor \
 	/usr/include/qt6/QtGui/QTransform \
+	/usr/include/qt6/QtGui/QValidator \
 	/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
 	/usr/include/qt6/QtGui/qaction.h \
 	/usr/include/qt6/QtGui/qbitmap.h \
@@ -454,6 +461,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtGui/qpaintdevice.h \
 	/usr/include/qt6/QtGui/qpalette.h \
 	/usr/include/qt6/QtGui/qpen.h \
+	/usr/include/qt6/QtGui/qpicture.h \
 	/usr/include/qt6/QtGui/qpixelformat.h \
 	/usr/include/qt6/QtGui/qpixmap.h \
 	/usr/include/qt6/QtGui/qpointingdevice.h \
@@ -473,25 +481,53 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtGui/qtguiexports.h \
 	/usr/include/qt6/QtGui/qtguiglobal.h \
 	/usr/include/qt6/QtGui/qtransform.h \
+	/usr/include/qt6/QtGui/qvalidator.h \
 	/usr/include/qt6/QtGui/qvector2d.h \
 	/usr/include/qt6/QtGui/qvectornd.h \
 	/usr/include/qt6/QtGui/qwindowdefs.h \
+	/usr/include/qt6/QtWidgets/QComboBox \
+	/usr/include/qt6/QtWidgets/QDoubleSpinBox \
+	/usr/include/qt6/QtWidgets/QFontComboBox \
+	/usr/include/qt6/QtWidgets/QFormLayout \
 	/usr/include/qt6/QtWidgets/QHBoxLayout \
+	/usr/include/qt6/QtWidgets/QLabel \
+	/usr/include/qt6/QtWidgets/QLayout \
+	/usr/include/qt6/QtWidgets/QLineEdit \
 	/usr/include/qt6/QtWidgets/QMainWindow \
 	/usr/include/qt6/QtWidgets/QPlainTextEdit \
+	/usr/include/qt6/QtWidgets/QPushButton \
 	/usr/include/qt6/QtWidgets/QSplitter \
+	/usr/include/qt6/QtWidgets/QStackedWidget \
 	/usr/include/qt6/QtWidgets/QTextBrowser \
 	/usr/include/qt6/QtWidgets/QVBoxLayout \
+	/usr/include/qt6/QtWidgets/QWidget \
+	/usr/include/qt6/QtWidgets/qabstractbutton.h \
+	/usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
 	/usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+	/usr/include/qt6/QtWidgets/qabstractslider.h \
+	/usr/include/qt6/QtWidgets/qabstractspinbox.h \
 	/usr/include/qt6/QtWidgets/qboxlayout.h \
+	/usr/include/qt6/QtWidgets/qcombobox.h \
+	/usr/include/qt6/QtWidgets/qfontcombobox.h \
+	/usr/include/qt6/QtWidgets/qformlayout.h \
 	/usr/include/qt6/QtWidgets/qframe.h \
 	/usr/include/qt6/QtWidgets/qgridlayout.h \
+	/usr/include/qt6/QtWidgets/qlabel.h \
 	/usr/include/qt6/QtWidgets/qlayout.h \
 	/usr/include/qt6/QtWidgets/qlayoutitem.h \
+	/usr/include/qt6/QtWidgets/qlineedit.h \
 	/usr/include/qt6/QtWidgets/qmainwindow.h \
 	/usr/include/qt6/QtWidgets/qplaintextedit.h \
+	/usr/include/qt6/QtWidgets/qpushbutton.h \
+	/usr/include/qt6/QtWidgets/qrubberband.h \
 	/usr/include/qt6/QtWidgets/qsizepolicy.h \
+	/usr/include/qt6/QtWidgets/qslider.h \
+	/usr/include/qt6/QtWidgets/qspinbox.h \
 	/usr/include/qt6/QtWidgets/qsplitter.h \
+	/usr/include/qt6/QtWidgets/qstackedwidget.h \
+	/usr/include/qt6/QtWidgets/qstyle.h \
+	/usr/include/qt6/QtWidgets/qstyleoption.h \
+	/usr/include/qt6/QtWidgets/qtabbar.h \
 	/usr/include/qt6/QtWidgets/qtabwidget.h \
 	/usr/include/qt6/QtWidgets/qtextbrowser.h \
 	/usr/include/qt6/QtWidgets/qtextedit.h \

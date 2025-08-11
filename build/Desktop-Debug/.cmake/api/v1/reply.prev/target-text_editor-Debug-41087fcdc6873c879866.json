@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 34,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 26,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -284,7 +284,8 @@
 				14,
 				16,
 				18,
-				20
+				20,
+				22
 			]
 		}
 	],
@@ -367,7 +368,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				21
+				23
 			]
 		},
 		{
@@ -384,7 +385,8 @@
 				14,
 				16,
 				18,
-				20
+				20,
+				22
 			]
 		},
 		{
@@ -399,14 +401,15 @@
 				13,
 				15,
 				17,
-				19
+				19,
+				21
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				22
+				24
 			]
 		}
 	],
@@ -528,6 +531,17 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "preprocessor/textparagraph.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "styleform.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "styleform.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
