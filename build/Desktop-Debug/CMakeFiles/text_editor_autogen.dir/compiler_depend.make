@@ -17,6 +17,8 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /home/ksi/reps/text_editor/mainlayout.h \
   /home/ksi/reps/text_editor/mainwindow.cpp \
   /home/ksi/reps/text_editor/mainwindow.h \
+  /home/ksi/reps/text_editor/namefileform.cpp \
+  /home/ksi/reps/text_editor/namefileform.h \
   /home/ksi/reps/text_editor/preprocessor/preprocessor.cpp \
   /home/ksi/reps/text_editor/preprocessor/preprocessor.h \
   /home/ksi/reps/text_editor/preprocessor/textparagraph.cpp \
@@ -438,6 +440,7 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/qt6/QtGui/QColor \
+  /usr/include/qt6/QtGui/QKeyEvent \
   /usr/include/qt6/QtGui/QTransform \
   /usr/include/qt6/QtGui/QValidator \
   /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
@@ -488,6 +491,7 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /usr/include/qt6/QtGui/qvector2d.h \
   /usr/include/qt6/QtGui/qvectornd.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QApplication \
   /usr/include/qt6/QtWidgets/QComboBox \
   /usr/include/qt6/QtWidgets/QDoubleSpinBox \
   /usr/include/qt6/QtWidgets/QFontComboBox \
@@ -509,6 +513,7 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt6/QtWidgets/qabstractslider.h \
   /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/qt6/QtWidgets/qapplication.h \
   /usr/include/qt6/QtWidgets/qboxlayout.h \
   /usr/include/qt6/QtWidgets/qcombobox.h \
   /usr/include/qt6/QtWidgets/qfontcombobox.h \
@@ -1246,8 +1251,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
-/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
 /usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
@@ -1312,23 +1315,13 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/string.h:
 
-/usr/include/c++/15.1.1/chrono:
+/usr/include/stdio.h:
 
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+/usr/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtWidgets/qmainwindow.h:
+/usr/include/qt6/QtWidgets/qwidget.h:
 
 /usr/include/c++/15.1.1/tr1/poly_hermite.tcc:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
-
-/usr/include/c++/15.1.1/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/15.1.1/bits/stl_construct.h:
 
 /usr/include/c++/15.1.1/tr1/gamma.tcc:
 
@@ -1476,12 +1469,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/qt6/QtGui/qtextdocument.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15.1.1/compare:
-
-/usr/include/c++/15.1.1/bits/stl_tempbuf.h:
-
 /usr/include/bits/errno.h:
 
 /usr/include/c++/15.1.1/bits/exception.h:
@@ -1505,6 +1492,10 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/include/qt6/QtCore/qutf8stringview.h:
 
 /usr/include/c++/15.1.1/bits/predefined_ops.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/15.1.1/bits/nested_exception.h:
 
 /usr/include/c++/15.1.1/bits/stl_heap.h:
 
@@ -1536,8 +1527,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/c++/15.1.1/bits/basic_string.h:
 
-/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
-
 /usr/include/qt6/QtCore/q20utility.h:
 
 /usr/include/c++/15.1.1/bits/exception_ptr.h:
@@ -1548,6 +1537,10 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h:
 
+/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
+/home/ksi/reps/text_editor/namefileform.cpp:
+
 /usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
@@ -1556,13 +1549,9 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/c++/15.1.1/atomic:
 
-/usr/include/c++/15.1.1/bits/stl_function.h:
+/usr/include/qt6/QtWidgets/QDoubleSpinBox:
 
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/15.1.1/cstddef:
-
-/usr/include/c++/15.1.1/bits/stl_pair.h:
+/usr/include/bits/types/time_t.h:
 
 /usr/include/c++/15.1.1/bits/stl_bvector.h:
 
@@ -1634,11 +1623,11 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/qt6/QtCore/qflags.h:
 
-/usr/include/qt6/QtWidgets/QDoubleSpinBox:
+/usr/include/c++/15.1.1/cstddef:
 
-/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
+/usr/include/c++/15.1.1/bits/stl_pair.h:
 
-/usr/include/bits/types/time_t.h:
+/usr/include/bits/pthreadtypes-arch.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QWaylandEglPlatformIntegrationPluginConfig.cmake:
 
@@ -1653,6 +1642,22 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/lib/cmake/Qt6/QtInstallPaths.cmake:
 
 /usr/include/bits/types/clockid_t.h:
+
+/usr/include/c++/15.1.1/chrono:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
+
+/usr/include/c++/15.1.1/bits/stl_construct.h:
+
+/usr/include/c++/15.1.1/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtWidgets/qmainwindow.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
 
@@ -1678,13 +1683,13 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/c++/15.1.1/bits/stl_iterator.h:
 
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
-
-/usr/include/bits/byteswap.h:
-
 /usr/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake:
 
 /usr/include/c++/15.1.1/bits/allocated_ptr.h:
+
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
+
+/usr/include/bits/byteswap.h:
 
 /usr/include/bits/endian.h:
 
@@ -1694,9 +1699,27 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/alloca.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
+/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake:
 
-/home/ksi/reps/text_editor/styleclass.cpp:
+/usr/include/c++/15.1.1/cstdlib:
+
+/usr/include/qt6/QtCore/qurl.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
+
+/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/15.1.1/bits/stl_vector.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
+
+/usr/include/qt6/QtCore/qxptype_traits.h:
+
+/usr/include/c++/15.1.1/bits/stl_tempbuf.h:
+
+/home/ksi/reps/text_editor/styleviewwidget.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
@@ -1724,6 +1747,14 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/qt6/QtWidgets/qabstractitemdelegate.h:
 
+/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake:
+
+/usr/include/c++/15.1.1/compare:
+
+/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
+
+/usr/include/qt6/QtCore/qatomic.h:
+
 /usr/include/bits/endianness.h:
 
 /home/ksi/reps/text_editor/io/export.h:
@@ -1744,32 +1775,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 .qtc/package-manager/auto-setup.cmake:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWaylandIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/include/c++/15.1.1/cstdlib:
-
-/usr/include/qt6/QtCore/qurl.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
-
-/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/c++/15.1.1/bits/stl_vector.h:
-
-/usr/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
-/usr/include/qt6/QtCore/qxptype_traits.h:
-
-/home/ksi/reps/text_editor/styleviewwidget.h:
-
-/usr/include/time.h:
-
-/usr/include/qt6/QtCore/qlocale.h:
-
-/usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h:
-
 /usr/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtWidgets/qtextbrowser.h:
@@ -1777,6 +1782,14 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/include/qt6/QtGui/qpixelformat.h:
 
 /home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp:
+
+/usr/include/sched.h:
+
+text_editor_autogen/moc_predefs.h:
+
+/usr/include/time.h:
+
+/usr/include/qt6/QtCore/qlocale.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake:
 
@@ -1795,6 +1808,8 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/include/bits/floatn.h:
 
 /usr/include/qt6/QtCore/qbytearray.h:
+
+/usr/include/qt6/QtWidgets/qapplication.h:
 
 /usr/include/c++/15.1.1/bits/localefwd.h:
 
@@ -1872,6 +1887,14 @@ CMakeFiles/4.0.3-dirty/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtCore/qsharedpointer.h:
 
+/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/home/ksi/reps/text_editor/styleclass.cpp:
+
+/usr/include/c++/15.1.1/bits/cxxabi_forced.h:
+
+/home/ksi/reps/text_editor/namefileform.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake:
 
 CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
@@ -1885,6 +1908,8 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 /usr/include/qt6/QtCore/qvariant.h:
 
 /usr/include/qt6/QtWidgets/qplaintextedit.h:
+
+/usr/include/c++/15.1.1/bits/stl_function.h:
 
 /usr/include/c++/15.1.1/ext/atomicity.h:
 
@@ -2050,8 +2075,6 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 
 /usr/include/bits/wordsize.h:
 
-/usr/include/stdio.h:
-
 /usr/include/c++/15.1.1/streambuf:
 
 /usr/include/bits/types/struct_tm.h:
@@ -2106,9 +2129,7 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 
 /usr/include/asm/errno.h:
 
-/usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
-
-/usr/include/qt6/QtCore/qatomic.h:
+/usr/include/c++/15.1.1/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/15.1.1/tr1/special_function_util.h:
 
@@ -2193,10 +2214,6 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 /usr/include/linux/types.h:
 
 /usr/include/pthread.h:
-
-/usr/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
-
-/usr/include/qt6/QtWidgets/qwidget.h:
 
 /usr/include/qt6/QtCore/QList:
 
@@ -2362,9 +2379,9 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 
 /usr/include/qt6/QtCore/qobject.h:
 
-/usr/include/qt6/QtCore/qglobalstatic.h:
-
 /usr/include/limits.h:
+
+/usr/include/qt6/QtCore/qglobalstatic.h:
 
 /usr/include/qt6/QtCore/qobjectdefs.h:
 
@@ -2387,6 +2404,10 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 /usr/include/qt6/QtCore/qscopedpointer.h:
 
 /usr/include/qt6/QtCore/qscopeguard.h:
+
+/usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h:
+
+/usr/include/qt6/QtWidgets/QApplication:
 
 /usr/include/c++/15.1.1/system_error:
 
@@ -2499,6 +2520,8 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 /usr/include/qt6/QtCore/qvarlengtharray.h:
 
 /usr/include/qt6/QtGui/QColor:
+
+/usr/include/qt6/QtGui/QKeyEvent:
 
 /usr/include/qt6/QtGui/QValidator:
 
@@ -2636,6 +2659,12 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 
 /usr/include/qt6/QtWidgets/qpushbutton.h:
 
+/usr/include/stdlib.h:
+
+/usr/include/qt6/QtCore/qrect.h:
+
+/usr/include/qt6/QtWidgets/qslider.h:
+
 /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
 
 /usr/include/qt6/QtWidgets/qstackedwidget.h:
@@ -2661,17 +2690,3 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 /usr/include/qt6/QtWidgets/qtextedit.h:
 
 /usr/include/qt6/QtWidgets/qtwidgetsglobal.h:
-
-text_editor_autogen/moc_predefs.h:
-
-/usr/include/sched.h:
-
-/usr/include/c++/15.1.1/bits/nested_exception.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/qt6/QtCore/qrect.h:
-
-/usr/include/qt6/QtWidgets/qslider.h:
-
-/usr/include/stdlib.h:

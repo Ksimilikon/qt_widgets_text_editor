@@ -11,6 +11,10 @@ QHash<QString, QString> globalTextVars;
 MainLayout::MainLayout(QWidget *parent)
     : QWidget(parent)
 {
+    m_fullPath = new QLabel("none");
+    m_fullPath->setMaximumSize(QWIDGETSIZE_MAX, 20);
+    m_fullPath->setAlignment(Qt::AlignCenter);
+
     m_leftVars =       new QPlainTextEdit;
     m_leftTextEdit =   new QPlainTextEdit;
     m_rightTextEdit =  new QTextBrowser;
@@ -45,7 +49,8 @@ MainLayout::MainLayout(QWidget *parent)
         m_leftTextEdit->setFocus();
     });
 
-    QHBoxLayout *layout = new QHBoxLayout(this);
+    QVBoxLayout *layout = new QVBoxLayout(this);
+    layout->addWidget(m_fullPath);
     layout->addWidget(splitter);
     layout->setContentsMargins(0, 0, 0, 0);
     layout->setSpacing(0);
@@ -99,4 +104,18 @@ QHash<QString, QString> MainLayout::getTextVar(const QString& text){
 #endif
     return result;
 }
-
+void MainLayout::setFullPath(const QString& path){
+    m_fullPath->setText(path);
+}
+void MainLayout::keyPressEvent(QKeyEvent *event){
+    if(event->modifiers()==Qt::ControlModifier
+        && event->key() == Qt::Key_S){
+        io::DataForSave data = {
+            m_leftTextEdit->toPlainText(),
+            globalTextVars,
+            StyleClass::getStyles()
+        };
+        io::Saver* saver = new io::Saver(data);
+        saver->save(m_fullPath->text());
+    }
+}

@@ -16,6 +16,7 @@ text_editor: \
   CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o \
   CMakeFiles/text_editor.dir/styleform.cpp.o \
   CMakeFiles/text_editor.dir/styleviewwidget.cpp.o \
+  CMakeFiles/text_editor.dir/namefileform.cpp.o \
   /usr/lib/libQt6Widgets.so.6.9.1 \
   /usr/lib/libQt6Gui.so.6.9.1 \
   /usr/lib/libGLX.so \
@@ -126,6 +127,8 @@ CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o:
 CMakeFiles/text_editor.dir/styleform.cpp.o:
 
 CMakeFiles/text_editor.dir/styleviewwidget.cpp.o:
+
+CMakeFiles/text_editor.dir/namefileform.cpp.o:
 
 /usr/lib/libQt6Widgets.so.6.9.1:
 

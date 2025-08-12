@@ -1,5 +1,6 @@
 /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/ksi/reps/text_editor/mainwindow.h \
   /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/moc_predefs.h \
+  /home/ksi/reps/text_editor/io/saver.h \
   /home/ksi/reps/text_editor/mainlayout.h \
   /home/ksi/reps/text_editor/preprocessor/preprocessor.h \
   /home/ksi/reps/text_editor/preprocessor/textparagraph.h \
@@ -414,6 +415,7 @@
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/qt6/QtGui/QColor \
+  /usr/include/qt6/QtGui/QKeyEvent \
   /usr/include/qt6/QtGui/QTransform \
   /usr/include/qt6/QtGui/QValidator \
   /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
@@ -464,6 +466,7 @@
   /usr/include/qt6/QtGui/qvector2d.h \
   /usr/include/qt6/QtGui/qvectornd.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
+  /usr/include/qt6/QtWidgets/QApplication \
   /usr/include/qt6/QtWidgets/QComboBox \
   /usr/include/qt6/QtWidgets/QDoubleSpinBox \
   /usr/include/qt6/QtWidgets/QFontComboBox \
@@ -485,6 +488,7 @@
   /usr/include/qt6/QtWidgets/qabstractscrollarea.h \
   /usr/include/qt6/QtWidgets/qabstractslider.h \
   /usr/include/qt6/QtWidgets/qabstractspinbox.h \
+  /usr/include/qt6/QtWidgets/qapplication.h \
   /usr/include/qt6/QtWidgets/qboxlayout.h \
   /usr/include/qt6/QtWidgets/qcombobox.h \
   /usr/include/qt6/QtWidgets/qfontcombobox.h \

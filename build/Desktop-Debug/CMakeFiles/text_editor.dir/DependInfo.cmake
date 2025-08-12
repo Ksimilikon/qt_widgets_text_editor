@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ksi/reps/text_editor/main.cpp" "CMakeFiles/text_editor.dir/main.cpp.o" "gcc" "CMakeFiles/text_editor.dir/main.cpp.o.d"
   "/home/ksi/reps/text_editor/mainlayout.cpp" "CMakeFiles/text_editor.dir/mainlayout.cpp.o" "gcc" "CMakeFiles/text_editor.dir/mainlayout.cpp.o.d"
   "/home/ksi/reps/text_editor/mainwindow.cpp" "CMakeFiles/text_editor.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/text_editor.dir/mainwindow.cpp.o.d"
+  "/home/ksi/reps/text_editor/namefileform.cpp" "CMakeFiles/text_editor.dir/namefileform.cpp.o" "gcc" "CMakeFiles/text_editor.dir/namefileform.cpp.o.d"
   "/home/ksi/reps/text_editor/preprocessor/preprocessor.cpp" "CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o" "gcc" "CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o.d"
   "/home/ksi/reps/text_editor/preprocessor/textparagraph.cpp" "CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o" "gcc" "CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o.d"
   "/home/ksi/reps/text_editor/preprocessor/textsegment.cpp" "CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o" "gcc" "CMakeFiles/text_editor.dir/preprocessor/textsegment.cpp.o.d"

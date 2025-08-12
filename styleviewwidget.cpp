@@ -5,7 +5,6 @@
 #include "mainlayout.h"
 
 #include <QDebug>
-
 StyleViewWidget::StyleViewWidget(QWidget *parent)
     : QWidget(parent)
 {

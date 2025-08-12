@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/text_editor.dir/mainlayout.cpp.o.d"
   "CMakeFiles/text_editor.dir/mainwindow.cpp.o"
   "CMakeFiles/text_editor.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/text_editor.dir/namefileform.cpp.o"
+  "CMakeFiles/text_editor.dir/namefileform.cpp.o.d"
   "CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o"
   "CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o.d"
   "CMakeFiles/text_editor.dir/preprocessor/textparagraph.cpp.o"

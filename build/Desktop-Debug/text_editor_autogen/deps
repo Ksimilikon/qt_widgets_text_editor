@@ -15,6 +15,8 @@ text_editor_autogen/timestamp: \
 	/home/ksi/reps/text_editor/mainlayout.h \
 	/home/ksi/reps/text_editor/mainwindow.cpp \
 	/home/ksi/reps/text_editor/mainwindow.h \
+	/home/ksi/reps/text_editor/namefileform.cpp \
+	/home/ksi/reps/text_editor/namefileform.h \
 	/home/ksi/reps/text_editor/preprocessor/preprocessor.cpp \
 	/home/ksi/reps/text_editor/preprocessor/preprocessor.h \
 	/home/ksi/reps/text_editor/preprocessor/textparagraph.cpp \
@@ -435,6 +437,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtCore/qxptype_traits.h \
 	/usr/include/qt6/QtCore/qyieldcpu.h \
 	/usr/include/qt6/QtGui/QColor \
+	/usr/include/qt6/QtGui/QKeyEvent \
 	/usr/include/qt6/QtGui/QTransform \
 	/usr/include/qt6/QtGui/QValidator \
 	/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
@@ -485,6 +488,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtGui/qvector2d.h \
 	/usr/include/qt6/QtGui/qvectornd.h \
 	/usr/include/qt6/QtGui/qwindowdefs.h \
+	/usr/include/qt6/QtWidgets/QApplication \
 	/usr/include/qt6/QtWidgets/QComboBox \
 	/usr/include/qt6/QtWidgets/QDoubleSpinBox \
 	/usr/include/qt6/QtWidgets/QFontComboBox \
@@ -506,6 +510,7 @@ text_editor_autogen/timestamp: \
 	/usr/include/qt6/QtWidgets/qabstractscrollarea.h \
 	/usr/include/qt6/QtWidgets/qabstractslider.h \
 	/usr/include/qt6/QtWidgets/qabstractspinbox.h \
+	/usr/include/qt6/QtWidgets/qapplication.h \
 	/usr/include/qt6/QtWidgets/qboxlayout.h \
 	/usr/include/qt6/QtWidgets/qcombobox.h \
 	/usr/include/qt6/QtWidgets/qfontcombobox.h \

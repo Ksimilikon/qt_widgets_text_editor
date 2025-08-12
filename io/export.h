@@ -1,10 +1,10 @@
 #ifndef EXPORT_H
 #define EXPORT_H
 
-class Export
-{
-public:
-    Export();
+namespace io {
+class Export{
+
 };
+}
 
 #endif // EXPORT_H

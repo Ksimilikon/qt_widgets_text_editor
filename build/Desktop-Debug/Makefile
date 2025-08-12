@@ -344,6 +344,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+namefileform.o: namefileform.cpp.o
+.PHONY : namefileform.o
+
+# target to build an object file
+namefileform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/namefileform.cpp.o
+.PHONY : namefileform.cpp.o
+
+namefileform.i: namefileform.cpp.i
+.PHONY : namefileform.i
+
+# target to preprocess a source file
+namefileform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/namefileform.cpp.i
+.PHONY : namefileform.cpp.i
+
+namefileform.s: namefileform.cpp.s
+.PHONY : namefileform.s
+
+# target to generate assembly for a file
+namefileform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/namefileform.cpp.s
+.PHONY : namefileform.cpp.s
+
 preprocessor/preprocessor.o: preprocessor/preprocessor.cpp.o
 .PHONY : preprocessor/preprocessor.o
 
@@ -569,6 +593,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... namefileform.o"
+	@echo "... namefileform.i"
+	@echo "... namefileform.s"
 	@echo "... preprocessor/preprocessor.o"
 	@echo "... preprocessor/preprocessor.i"
 	@echo "... preprocessor/preprocessor.s"

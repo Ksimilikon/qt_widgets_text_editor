@@ -421,7 +421,8 @@ CMakeFiles/text_editor.dir/styleviewwidget.cpp.o: \
  /usr/include/qt6/QtWidgets/QHBoxLayout \
  /usr/include/qt6/QtWidgets/QVBoxLayout \
  /usr/include/qt6/QtWidgets/QSplitter \
- /usr/include/qt6/QtWidgets/qsplitter.h \
+ /usr/include/qt6/QtWidgets/qsplitter.h /usr/include/qt6/QtGui/QKeyEvent \
+ /usr/include/qt6/QtGui/qevent.h \
  /home/ksi/reps/text_editor/preprocessor/preprocessor.h \
  /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/QHash /usr/include/qt6/QtCore/qhash.h \
@@ -429,4 +430,6 @@ CMakeFiles/text_editor.dir/styleviewwidget.cpp.o: \
  /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtGui/qcolor.h \
  /home/ksi/reps/text_editor/preprocessor/textparagraph.h \
  /home/ksi/reps/text_editor/preprocessor/textsegment.h \
+ /home/ksi/reps/text_editor/io/saver.h \
+ /home/ksi/reps/text_editor/io/../styleclass.h \
  /usr/include/qt6/QtCore/QDebug /usr/include/qt6/QtCore/qdebug.h

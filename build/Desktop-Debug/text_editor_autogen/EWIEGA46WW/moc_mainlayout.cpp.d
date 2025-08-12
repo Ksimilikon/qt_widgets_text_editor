@@ -1,5 +1,6 @@
 /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/EWIEGA46WW/moc_mainlayout.cpp: /home/ksi/reps/text_editor/mainlayout.h \
   /home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/moc_predefs.h \
+  /home/ksi/reps/text_editor/io/saver.h \
   /home/ksi/reps/text_editor/preprocessor/preprocessor.h \
   /home/ksi/reps/text_editor/preprocessor/textparagraph.h \
   /home/ksi/reps/text_editor/preprocessor/textsegment.h \
@@ -410,6 +411,7 @@
   /usr/include/qt6/QtCore/qxptype_traits.h \
   /usr/include/qt6/QtCore/qyieldcpu.h \
   /usr/include/qt6/QtGui/QColor \
+  /usr/include/qt6/QtGui/QKeyEvent \
   /usr/include/qt6/QtGui/QTransform \
   /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
   /usr/include/qt6/QtGui/qaction.h \
@@ -435,6 +437,7 @@
   /usr/include/qt6/QtGui/qpaintdevice.h \
   /usr/include/qt6/QtGui/qpalette.h \
   /usr/include/qt6/QtGui/qpen.h \
+  /usr/include/qt6/QtGui/qpicture.h \
   /usr/include/qt6/QtGui/qpixelformat.h \
   /usr/include/qt6/QtGui/qpixmap.h \
   /usr/include/qt6/QtGui/qpointingdevice.h \
@@ -458,6 +461,7 @@
   /usr/include/qt6/QtGui/qvectornd.h \
   /usr/include/qt6/QtGui/qwindowdefs.h \
   /usr/include/qt6/QtWidgets/QHBoxLayout \
+  /usr/include/qt6/QtWidgets/QLabel \
   /usr/include/qt6/QtWidgets/QPlainTextEdit \
   /usr/include/qt6/QtWidgets/QPushButton \
   /usr/include/qt6/QtWidgets/QSplitter \
@@ -469,6 +473,7 @@
   /usr/include/qt6/QtWidgets/qboxlayout.h \
   /usr/include/qt6/QtWidgets/qframe.h \
   /usr/include/qt6/QtWidgets/qgridlayout.h \
+  /usr/include/qt6/QtWidgets/qlabel.h \
   /usr/include/qt6/QtWidgets/qlayout.h \
   /usr/include/qt6/QtWidgets/qlayoutitem.h \
   /usr/include/qt6/QtWidgets/qplaintextedit.h \
