@@ -1,5 +1,5 @@
 #include "mainlayout.h"
-#define DEBUG
+// #define DEBUG
 
 #include <QDebug>
 #include <QStackedWidget>
