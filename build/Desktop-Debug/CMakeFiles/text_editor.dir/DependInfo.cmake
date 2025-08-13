@@ -21,7 +21,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ksi/reps/text_editor/styleclass.cpp" "CMakeFiles/text_editor.dir/styleclass.cpp.o" "gcc" "CMakeFiles/text_editor.dir/styleclass.cpp.o.d"
   "/home/ksi/reps/text_editor/styleform.cpp" "CMakeFiles/text_editor.dir/styleform.cpp.o" "gcc" "CMakeFiles/text_editor.dir/styleform.cpp.o.d"
   "/home/ksi/reps/text_editor/styleviewwidget.cpp" "CMakeFiles/text_editor.dir/styleviewwidget.cpp.o" "gcc" "CMakeFiles/text_editor.dir/styleviewwidget.cpp.o.d"
-  "/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp" "CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o" "gcc" "CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o.d"
   "/home/ksi/reps/text_editor/build/Desktop-Debug/text_editor_autogen/mocs_compilation.cpp" "CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o.d"
   "" "text_editor" "gcc" "CMakeFiles/text_editor.dir/link.d"
   )

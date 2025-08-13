@@ -19,7 +19,8 @@ public:
     explicit MainLayout(QWidget *parent = nullptr);
     StyleViewWidget* getStyleView() const {return m_rightStyleView;}
     void setFullPath(const QString& path);
-    QString getFullPath(){m_fullPath->text();}
+    QString getFullPath(){return m_fullPath->text();}
+    void setLoadedData(const io::DataForSave&);
 
 private slots:
     void slotTextProcessed();

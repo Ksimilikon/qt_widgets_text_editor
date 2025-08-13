@@ -30,6 +30,7 @@ MainWindow::MainWindow(const QApplication* app, QWidget *parent)
         QString path = dir.absoluteFilePath(arg);
         if(dir.exists() && QFileInfo::exists(path)){
             mainLayout->setFullPath(path);
+            mainLayout->setLoadedData(io::Saver::load(path));
         }
         else{
             m_widgetsStack->setCurrentIndex(2);

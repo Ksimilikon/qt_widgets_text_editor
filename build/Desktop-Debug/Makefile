@@ -175,6 +175,19 @@ text_editor/fast:
 .PHONY : text_editor/fast
 
 #=============================================================================
+# Target rules for targets named tests
+
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+#=============================================================================
 # Target rules for targets named text_editor_autogen_timestamp_deps
 
 # Build rule for target.
@@ -200,12 +213,39 @@ text_editor_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor_autogen.dir/build.make CMakeFiles/text_editor_autogen.dir/build
 .PHONY : text_editor_autogen/fast
 
+#=============================================================================
+# Target rules for targets named tests_autogen_timestamp_deps
+
+# Build rule for target.
+tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests_autogen_timestamp_deps
+.PHONY : tests_autogen_timestamp_deps
+
+# fast build rule for target.
+tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests_autogen_timestamp_deps.dir/build.make CMakeFiles/tests_autogen_timestamp_deps.dir/build
+.PHONY : tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named tests_autogen
+
+# Build rule for target.
+tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests_autogen
+.PHONY : tests_autogen
+
+# fast build rule for target.
+tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests_autogen.dir/build.make CMakeFiles/tests_autogen.dir/build
+.PHONY : tests_autogen/fast
+
 io/export.o: io/export.cpp.o
 .PHONY : io/export.o
 
 # target to build an object file
 io/export.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/export.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/export.cpp.o
 .PHONY : io/export.cpp.o
 
 io/export.i: io/export.cpp.i
@@ -214,6 +254,7 @@ io/export.i: io/export.cpp.i
 # target to preprocess a source file
 io/export.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/export.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/export.cpp.i
 .PHONY : io/export.cpp.i
 
 io/export.s: io/export.cpp.s
@@ -222,6 +263,7 @@ io/export.s: io/export.cpp.s
 # target to generate assembly for a file
 io/export.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/export.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/export.cpp.s
 .PHONY : io/export.cpp.s
 
 io/import.o: io/import.cpp.o
@@ -230,6 +272,7 @@ io/import.o: io/import.cpp.o
 # target to build an object file
 io/import.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/import.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/import.cpp.o
 .PHONY : io/import.cpp.o
 
 io/import.i: io/import.cpp.i
@@ -238,6 +281,7 @@ io/import.i: io/import.cpp.i
 # target to preprocess a source file
 io/import.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/import.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/import.cpp.i
 .PHONY : io/import.cpp.i
 
 io/import.s: io/import.cpp.s
@@ -246,6 +290,7 @@ io/import.s: io/import.cpp.s
 # target to generate assembly for a file
 io/import.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/import.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/import.cpp.s
 .PHONY : io/import.cpp.s
 
 io/saver.o: io/saver.cpp.o
@@ -254,6 +299,7 @@ io/saver.o: io/saver.cpp.o
 # target to build an object file
 io/saver.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/saver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/saver.cpp.o
 .PHONY : io/saver.cpp.o
 
 io/saver.i: io/saver.cpp.i
@@ -262,6 +308,7 @@ io/saver.i: io/saver.cpp.i
 # target to preprocess a source file
 io/saver.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/saver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/saver.cpp.i
 .PHONY : io/saver.cpp.i
 
 io/saver.s: io/saver.cpp.s
@@ -270,6 +317,7 @@ io/saver.s: io/saver.cpp.s
 # target to generate assembly for a file
 io/saver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/io/saver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/io/saver.cpp.s
 .PHONY : io/saver.cpp.s
 
 main.o: main.cpp.o
@@ -512,12 +560,36 @@ styleviewwidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/styleviewwidget.cpp.s
 .PHONY : styleviewwidget.cpp.s
 
+tests/tst_executepropertyfunc.o: tests/tst_executepropertyfunc.cpp.o
+.PHONY : tests/tst_executepropertyfunc.o
+
+# target to build an object file
+tests/tst_executepropertyfunc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/tst_executepropertyfunc.cpp.o
+.PHONY : tests/tst_executepropertyfunc.cpp.o
+
+tests/tst_executepropertyfunc.i: tests/tst_executepropertyfunc.cpp.i
+.PHONY : tests/tst_executepropertyfunc.i
+
+# target to preprocess a source file
+tests/tst_executepropertyfunc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/tst_executepropertyfunc.cpp.i
+.PHONY : tests/tst_executepropertyfunc.cpp.i
+
+tests/tst_executepropertyfunc.s: tests/tst_executepropertyfunc.cpp.s
+.PHONY : tests/tst_executepropertyfunc.s
+
+# target to generate assembly for a file
+tests/tst_executepropertyfunc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/tst_executepropertyfunc.cpp.s
+.PHONY : tests/tst_executepropertyfunc.cpp.s
+
 tests/tst_styleclasstest.o: tests/tst_styleclasstest.cpp.o
 .PHONY : tests/tst_styleclasstest.o
 
 # target to build an object file
 tests/tst_styleclasstest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/tst_styleclasstest.cpp.o
 .PHONY : tests/tst_styleclasstest.cpp.o
 
 tests/tst_styleclasstest.i: tests/tst_styleclasstest.cpp.i
@@ -525,7 +597,7 @@ tests/tst_styleclasstest.i: tests/tst_styleclasstest.cpp.i
 
 # target to preprocess a source file
 tests/tst_styleclasstest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/tst_styleclasstest.cpp.i
 .PHONY : tests/tst_styleclasstest.cpp.i
 
 tests/tst_styleclasstest.s: tests/tst_styleclasstest.cpp.s
@@ -533,8 +605,32 @@ tests/tst_styleclasstest.s: tests/tst_styleclasstest.cpp.s
 
 # target to generate assembly for a file
 tests/tst_styleclasstest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/text_editor.dir/build.make CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/tst_styleclasstest.cpp.s
 .PHONY : tests/tst_styleclasstest.cpp.s
+
+tests_autogen/mocs_compilation.o: tests_autogen/mocs_compilation.cpp.o
+.PHONY : tests_autogen/mocs_compilation.o
+
+# target to build an object file
+tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests_autogen/mocs_compilation.cpp.o
+.PHONY : tests_autogen/mocs_compilation.cpp.o
+
+tests_autogen/mocs_compilation.i: tests_autogen/mocs_compilation.cpp.i
+.PHONY : tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests_autogen/mocs_compilation.cpp.i
+.PHONY : tests_autogen/mocs_compilation.cpp.i
+
+tests_autogen/mocs_compilation.s: tests_autogen/mocs_compilation.cpp.s
+.PHONY : tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests_autogen/mocs_compilation.cpp.s
+.PHONY : tests_autogen/mocs_compilation.cpp.s
 
 text_editor_autogen/mocs_compilation.o: text_editor_autogen/mocs_compilation.cpp.o
 .PHONY : text_editor_autogen/mocs_compilation.o
@@ -572,8 +668,11 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... tests_autogen"
+	@echo "... tests_autogen_timestamp_deps"
 	@echo "... text_editor_autogen"
 	@echo "... text_editor_autogen_timestamp_deps"
+	@echo "... tests"
 	@echo "... text_editor"
 	@echo "... io/export.o"
 	@echo "... io/export.i"
@@ -614,9 +713,15 @@ help:
 	@echo "... styleviewwidget.o"
 	@echo "... styleviewwidget.i"
 	@echo "... styleviewwidget.s"
+	@echo "... tests/tst_executepropertyfunc.o"
+	@echo "... tests/tst_executepropertyfunc.i"
+	@echo "... tests/tst_executepropertyfunc.s"
 	@echo "... tests/tst_styleclasstest.o"
 	@echo "... tests/tst_styleclasstest.i"
 	@echo "... tests/tst_styleclasstest.s"
+	@echo "... tests_autogen/mocs_compilation.o"
+	@echo "... tests_autogen/mocs_compilation.i"
+	@echo "... tests_autogen/mocs_compilation.s"
 	@echo "... text_editor_autogen/mocs_compilation.o"
 	@echo "... text_editor_autogen/mocs_compilation.i"
 	@echo "... text_editor_autogen/mocs_compilation.s"

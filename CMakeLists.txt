@@ -6,6 +6,9 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
 qt_standard_project_setup()
 
+find_package(GTest REQUIRED)
+include(GoogleTest)
+
 qt_add_executable(text_editor
     WIN32 MACOSX_BUNDLE
     main.cpp
@@ -14,7 +17,6 @@ qt_add_executable(text_editor
     mainlayout.h mainlayout.cpp
     mainwindow.h mainwindow.cpp
     styleclass.h styleclass.cpp
-    tests/tst_styleclasstest.cpp
     preprocessor/preprocessor.h preprocessor/preprocessor.cpp
     io/saver.h io/saver.cpp
     io/import.h io/import.cpp
@@ -26,6 +28,14 @@ qt_add_executable(text_editor
     namefileform.h namefileform.cpp
 
 )
+add_executable(tests
+    tests/tst_styleclasstest.cpp
+    tests/tst_executepropertyfunc.cpp
+
+    io/saver.h io/saver.cpp
+    io/import.h io/import.cpp
+    io/export.h io/export.cpp
+)
 
 target_link_libraries(text_editor
     PRIVATE
@@ -33,6 +43,16 @@ target_link_libraries(text_editor
         Qt::Widgets
 )
 target_link_libraries(text_editor PRIVATE Qt6::Widgets)
+
+target_link_libraries(tests
+    PRIVATE
+        Qt6::Core
+        Qt6::Widgets
+        GTest::GTest
+        GTest::Main
+)
+target_include_directories(tests PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+gtest_discover_tests(tests)
 
 include(GNUInstallDirs)
 

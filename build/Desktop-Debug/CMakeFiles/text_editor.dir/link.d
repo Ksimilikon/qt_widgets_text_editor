@@ -7,7 +7,6 @@ text_editor: \
   CMakeFiles/text_editor.dir/mainlayout.cpp.o \
   CMakeFiles/text_editor.dir/mainwindow.cpp.o \
   CMakeFiles/text_editor.dir/styleclass.cpp.o \
-  CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o \
   CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o \
   CMakeFiles/text_editor.dir/io/saver.cpp.o \
   CMakeFiles/text_editor.dir/io/import.cpp.o \
@@ -109,8 +108,6 @@ CMakeFiles/text_editor.dir/mainlayout.cpp.o:
 CMakeFiles/text_editor.dir/mainwindow.cpp.o:
 
 CMakeFiles/text_editor.dir/styleclass.cpp.o:
-
-CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o:
 
 CMakeFiles/text_editor.dir/preprocessor/preprocessor.cpp.o:
 

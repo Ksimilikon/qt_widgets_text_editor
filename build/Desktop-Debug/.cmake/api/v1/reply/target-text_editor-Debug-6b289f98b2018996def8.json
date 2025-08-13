@@ -47,7 +47,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 9,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 39,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 30,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -278,16 +278,15 @@
 				3,
 				5,
 				7,
-				8,
-				10,
-				12,
-				14,
-				16,
-				18,
-				20,
-				22,
-				24,
-				26
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25
 			]
 		}
 	],
@@ -370,7 +369,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				27
+				26
 			]
 		},
 		{
@@ -381,25 +380,6 @@
 				3,
 				5,
 				7,
-				8,
-				10,
-				12,
-				14,
-				16,
-				18,
-				20,
-				22,
-				24,
-				26
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				2,
-				4,
-				6,
 				9,
 				11,
 				13,
@@ -412,10 +392,28 @@
 			]
 		},
 		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24
+			]
+		},
+		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				28
+				27
 			]
 		}
 	],
@@ -465,12 +463,6 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "styleclass.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "tests/tst_styleclasstest.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

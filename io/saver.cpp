@@ -66,4 +66,132 @@ void Saver::save(const QString& path){
     file.close();
     qDebug() << "file save " << path;
 }
+DataForSave Saver::load(const QString &fullPath){
+    QFile file(fullPath);
+    if (!file.open(QIODevice::ReadOnly)) {
+        qDebug() << "error read file" << fullPath;
+        return DataForSave{};
+    }
+    QString fileText = QString::fromUtf8(file.readAll());
+    file.close();
+
+    QString text = "";
+    QHash<QString, QString> vars;
+    QHash<QString, StyleProperties> styles;
+    text = executeProps(fileText, "text");
+    QString varsText = executeProps(fileText, "vars");
+    QString stylesText = executeProps(fileText, "styles");
+
+    QStringList varsStrokes = varsText.split('\n');
+    foreach (QString str, varsStrokes) {
+        QStringList words = str.split('=');
+        if(words.length()==2){
+            vars[words[0].trimmed()]=words[1];
+        }
+        else{
+            continue;
+        }
+    }
+
+    QString nameStyle = "";
+    for(int i=0;i<stylesText.length();++i){
+
+        QChar ch = stylesText[i];
+        if(ch.isLetter()){
+            nameStyle.append(ch);
+        }
+        if(ch=='(' && nameStyle!=""){
+            int posStart = i;
+
+            QColor textColor = QColor::fromRgb(0, 0, 0);
+            QColor bgColor = QColor::fromRgb(255, 255, 255);
+            float fontSize = float(14);
+            float lineHeight = float(1);
+            QString fontFamily = "Arial";
+            Qt::Alignment aligment = Qt::AlignLeft;
+
+            while(i<stylesText.length() && stylesText[i]!=')'){
+                i++;
+            }
+            QStringList props = stylesText.mid(posStart, i).split('\n');
+            foreach (QString p, props) {
+                QStringList words = p.split('=');
+                if(words.length()==2){
+                    if(words[0]=="colorText"){
+                        textColor=QColor(words[1]);
+                    }
+                    if(words[0]=="colorBg"){
+                        bgColor=words[1];
+                    }
+                    if(words[0]=="fontSize"){
+                        fontSize=words[1].toFloat();
+                    }
+                    if(words[0]=="lineHeight"){
+                        lineHeight=words[1].toFloat();
+                    }
+                    if(words[0]=="fontName"){
+                        fontFamily=words[1];
+                    }
+                    if(words[0]=="aligmentH"){
+                        if(words[1]=="left"){
+                            aligment=Qt::AlignLeft;
+                        }
+                        if(words[1]=="right"){
+                            aligment=Qt::AlignRight;
+                        }
+                        if(words[1]=="center"){
+                            aligment=Qt::AlignCenter;
+                        }
+                        if(words[1]=="justify"){
+                            aligment=Qt::AlignJustify;
+                        }
+                    }
+                }
+                else{
+                    continue;
+                }
+            }
+            styles[nameStyle]=StyleProperties{
+                textColor,
+                bgColor,
+                fontSize,
+                lineHeight,
+                fontFamily,
+                aligment
+            };
+            nameStyle="";
+        }
+    }
+
+    return DataForSave{text, vars, styles};
+}
+
+QString executeProps(const QString& text, QString&& nameProperty, QChar bracketStart, QChar bracketEnd){
+    int pos = 0;
+    int posStart = 0;
+    qsizetype cap = 0;
+    bool inBrackets = false;
+    if((pos = text.indexOf(nameProperty)) != -1){
+        for (int i = pos; i < text.length(); ++i) {
+            if(text[i]==bracketStart && text.length() > (i+1)){
+                posStart=i+1;
+                inBrackets=true;
+            }
+            if(inBrackets && text[i]!=bracketEnd){
+                cap++;
+            }
+            if(text[i]==bracketEnd){
+                break;
+            }
+        }
+        if(cap>0){
+            cap--;
+        }
+    }
+    if(posStart!=pos && cap > 0){
+        return text.mid(posStart, cap);
+    }
+
+    return "";
+}
 }

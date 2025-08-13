@@ -11,6 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   ".qtc/package-manager/auto-setup.cmake"
   "CMakeFiles/4.0.3-dirty/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3-dirty/CMakeSystem.cmake"
+  "/usr/lib/cmake/GTest/GTestConfig.cmake"
+  "/usr/lib/cmake/GTest/GTestConfigVersion.cmake"
+  "/usr/lib/cmake/GTest/GTestTargets-none.cmake"
+  "/usr/lib/cmake/GTest/GTestTargets.cmake"
   "/usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
   "/usr/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake"
@@ -328,6 +332,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake/Modules/FeatureSummary.cmake"
+  "/usr/share/cmake/Modules/FindGTest.cmake"
   "/usr/share/cmake/Modules/FindOpenGL.cmake"
   "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake/Modules/FindPackageMessage.cmake"
@@ -335,6 +340,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/FindThreads.cmake"
   "/usr/share/cmake/Modules/FindVulkan.cmake"
   "/usr/share/cmake/Modules/GNUInstallDirs.cmake"
+  "/usr/share/cmake/Modules/GoogleTest.cmake"
   "/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
   "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
@@ -362,6 +368,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/text_editor_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/tests_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/deploy_text_editor_1a4ad96a18.cmake"
   ".qt/QtDeployTargets.cmake"
@@ -372,6 +379,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/text_editor.dir/DependInfo.cmake"
+  "CMakeFiles/tests.dir/DependInfo.cmake"
   "CMakeFiles/text_editor_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/text_editor_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/tests_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/tests_autogen.dir/DependInfo.cmake"
   )

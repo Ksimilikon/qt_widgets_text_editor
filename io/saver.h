@@ -12,12 +12,14 @@ struct DataForSave{
     QHash<QString, StyleProperties> styles;
 };
 
+QString executeProps(const QString& text, QString&& nameProperty, QChar bracketStart = '{', QChar bracketEnd = '}');
+
 class Saver
 {
 public:
     Saver(DataForSave& data);
     void save(const QString &path);
-    void load(const QString &fullPath);
+    static DataForSave load(const QString &fullPath);
 private:
     DataForSave* m_data;
 };

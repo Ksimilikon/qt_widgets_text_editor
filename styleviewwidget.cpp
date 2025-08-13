@@ -11,7 +11,6 @@ StyleViewWidget::StyleViewWidget(QWidget *parent)
     m_layout = new QVBoxLayout(this);
     m_styleVisual = new QTextBrowser;
     QPushButton *btnNew = new QPushButton("ADD/CHANGE");
-    // btnNew->setMaximumSize({50, 25});
     m_layout->addWidget(btnNew);
     m_layout->addWidget(m_styleVisual);
 

@@ -17,13 +17,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 39,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 70,
 				"parent" : 0
 			}
 		]
@@ -39,7 +39,7 @@
 				"text_editor"
 			],
 			"targetId" : "text_editor::@6890427a1f51a3e7e1df",
-			"targetIndex" : 0,
+			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{

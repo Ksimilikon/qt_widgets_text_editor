@@ -5,9 +5,9 @@ QHash<QString, StyleProperties> StyleClass::styles;
 void StyleClass::addStyle(QString nameClass, StyleProperties properties){
     styles[nameClass] = properties;
 }
-// void StyleClass::updateStyle(QString nameClass, StyleProperties properties){
-//     styles[nameClass] = properties;
-// }
+void StyleClass::setStyles(const QHash<QString, StyleProperties>& styles){
+    StyleClass::styles = styles;
+}
 QString StyleClass::getStyleSheet(){
     QString result = "*{margin:0;padding:0;}";
     for(QHash<QString, StyleProperties>::const_iterator iter = styles.constBegin();iter!=styles.constEnd();++iter){

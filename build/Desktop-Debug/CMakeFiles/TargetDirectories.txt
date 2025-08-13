@@ -1,4 +1,5 @@
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/text_editor.dir
+/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/tests.dir
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/edit_cache.dir
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/list_install_components.dir
@@ -7,3 +8,5 @@
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/install/strip.dir
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/text_editor_autogen_timestamp_deps.dir
 /home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/text_editor_autogen.dir
+/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/tests_autogen_timestamp_deps.dir
+/home/ksi/reps/text_editor/build/Desktop-Debug/CMakeFiles/tests_autogen.dir

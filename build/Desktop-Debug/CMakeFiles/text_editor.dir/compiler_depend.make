@@ -2516,7 +2516,6 @@ CMakeFiles/text_editor.dir/namefileform.cpp.o: /home/ksi/reps/text_editor/namefi
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/qt6/QtCore/QCoreApplication \
   /usr/include/qt6/QtCore/QDir \
   /usr/include/qt6/QtCore/QFileInfo \
   /usr/include/qt6/QtCore/QRegularExpression \
@@ -2528,7 +2527,6 @@ CMakeFiles/text_editor.dir/namefileform.cpp.o: /home/ksi/reps/text_editor/namefi
   /usr/include/qt6/QtCore/q20type_traits.h \
   /usr/include/qt6/QtCore/q20utility.h \
   /usr/include/qt6/QtCore/q23utility.h \
-  /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
   /usr/include/qt6/QtCore/qalgorithms.h \
   /usr/include/qt6/QtCore/qanystringview.h \
   /usr/include/qt6/QtCore/qarraydata.h \
@@ -2538,7 +2536,6 @@ CMakeFiles/text_editor.dir/namefileform.cpp.o: /home/ksi/reps/text_editor/namefi
   /usr/include/qt6/QtCore/qatomic.h \
   /usr/include/qt6/QtCore/qatomic_cxx11.h \
   /usr/include/qt6/QtCore/qbasicatomic.h \
-  /usr/include/qt6/QtCore/qbasictimer.h \
   /usr/include/qt6/QtCore/qbindingstorage.h \
   /usr/include/qt6/QtCore/qbytearray.h \
   /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -2556,19 +2553,13 @@ CMakeFiles/text_editor.dir/namefileform.cpp.o: /home/ksi/reps/text_editor/namefi
   /usr/include/qt6/QtCore/qcontainerinfo.h \
   /usr/include/qt6/QtCore/qcontainertools_impl.h \
   /usr/include/qt6/QtCore/qcontiguouscache.h \
-  /usr/include/qt6/QtCore/qcoreapplication.h \
-  /usr/include/qt6/QtCore/qcoreapplication_platform.h \
-  /usr/include/qt6/QtCore/qcoreevent.h \
   /usr/include/qt6/QtCore/qdarwinhelpers.h \
   /usr/include/qt6/QtCore/qdatastream.h \
   /usr/include/qt6/QtCore/qdatetime.h \
-  /usr/include/qt6/QtCore/qdeadlinetimer.h \
   /usr/include/qt6/QtCore/qdebug.h \
   /usr/include/qt6/QtCore/qdir.h \
   /usr/include/qt6/QtCore/qdirlisting.h \
-  /usr/include/qt6/QtCore/qelapsedtimer.h \
   /usr/include/qt6/QtCore/qendian.h \
-  /usr/include/qt6/QtCore/qeventloop.h \
   /usr/include/qt6/QtCore/qexceptionhandling.h \
   /usr/include/qt6/QtCore/qfile.h \
   /usr/include/qt6/QtCore/qfiledevice.h \
@@ -2600,7 +2591,6 @@ CMakeFiles/text_editor.dir/namefileform.cpp.o: /home/ksi/reps/text_editor/namefi
   /usr/include/qt6/QtCore/qmetatype.h \
   /usr/include/qt6/QtCore/qminmax.h \
   /usr/include/qt6/QtCore/qnamespace.h \
-  /usr/include/qt6/QtCore/qnativeinterface.h \
   /usr/include/qt6/QtCore/qnumeric.h \
   /usr/include/qt6/QtCore/qobject.h \
   /usr/include/qt6/QtCore/qobject_impl.h \
@@ -5278,9 +5268,6 @@ CMakeFiles/text_editor.dir/styleviewwidget.cpp.o: /home/ksi/reps/text_editor/sty
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
-CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o: /home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp \
-  /usr/include/stdc-predef.h
-
 CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o: text_editor_autogen/mocs_compilation.cpp \
   /home/ksi/reps/text_editor/styleclass.h \
   /home/ksi/reps/text_editor/io/saver.h \
@@ -5930,7 +5917,6 @@ text_editor: /usr/lib/Scrt1.o \
   CMakeFiles/text_editor.dir/styleclass.cpp.o \
   CMakeFiles/text_editor.dir/styleform.cpp.o \
   CMakeFiles/text_editor.dir/styleviewwidget.cpp.o \
-  CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o \
   CMakeFiles/text_editor.dir/text_editor_autogen/mocs_compilation.cpp.o
 
 
@@ -6445,8 +6431,6 @@ text_editor_autogen/mocs_compilation.cpp:
 /usr/include/c++/15.1.1/bits/version.h:
 
 /usr/include/qt6/QtGui/qkeysequence.h:
-
-/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp:
 
 /usr/include/qt6/QtGui/qpixelformat.h:
 
@@ -7243,8 +7227,6 @@ CMakeFiles/text_editor.dir/styleviewwidget.cpp.o:
 /usr/include/qt6/QtGui/QColor:
 
 /usr/include/qt6/QtGui/qcolor.h:
-
-CMakeFiles/text_editor.dir/tests/tst_styleclasstest.cpp.o:
 
 /usr/include/qt6/QtGui/qpicture.h:
 

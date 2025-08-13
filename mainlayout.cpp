@@ -119,3 +119,23 @@ void MainLayout::keyPressEvent(QKeyEvent *event){
         saver->save(m_fullPath->text());
     }
 }
+void MainLayout::setLoadedData(const io::DataForSave& data){
+    //vars
+    globalTextVars = data.vars;
+    qDebug() << globalTextVars;
+    qDebug() << data.vars.size() << "size";
+    QString varsText;
+    for(QHash<QString, QString>::const_iterator iter = data.vars.constBegin();iter!=data.vars.constEnd();iter++){
+        varsText.append(iter.key()+"="+iter.value()+"\n");
+    }
+    m_leftVars->setPlainText(varsText);
+
+    //text
+    m_leftTextEdit->setPlainText(data.text);
+
+    //styles
+    StyleClass::setStyles(data.styles);
+    m_rightStyleView->updateText();
+
+    slotTextProcessed();
+}

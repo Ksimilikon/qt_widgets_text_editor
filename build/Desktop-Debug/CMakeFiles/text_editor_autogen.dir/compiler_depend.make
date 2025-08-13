@@ -31,7 +31,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /home/ksi/reps/text_editor/styleform.h \
   /home/ksi/reps/text_editor/styleviewwidget.cpp \
   /home/ksi/reps/text_editor/styleviewwidget.h \
-  /home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp \
   /usr/bin/cmake \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -554,6 +553,10 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
+  /usr/lib/cmake/GTest/GTestConfig.cmake \
+  /usr/lib/cmake/GTest/GTestConfigVersion.cmake \
+  /usr/lib/cmake/GTest/GTestTargets-none.cmake \
+  /usr/lib/cmake/GTest/GTestTargets.cmake \
   /usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
   /usr/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /usr/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -874,6 +877,7 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
   /usr/share/cmake/Modules/Compiler/GNU.cmake \
   /usr/share/cmake/Modules/FeatureSummary.cmake \
+  /usr/share/cmake/Modules/FindGTest.cmake \
   /usr/share/cmake/Modules/FindOpenGL.cmake \
   /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake/Modules/FindPackageMessage.cmake \
@@ -881,6 +885,7 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
   /usr/share/cmake/Modules/FindThreads.cmake \
   /usr/share/cmake/Modules/FindVulkan.cmake \
   /usr/share/cmake/Modules/GNUInstallDirs.cmake \
+  /usr/share/cmake/Modules/GoogleTest.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
@@ -920,6 +925,8 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/share/cmake/Modules/GNUInstallDirs.cmake:
 
 /usr/share/cmake/Modules/FindPackageMessage.cmake:
+
+/usr/share/cmake/Modules/FindGTest.cmake:
 
 /usr/share/cmake/Modules/FeatureSummary.cmake:
 
@@ -1301,6 +1308,12 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/lib/cmake/Qt6/FindWrapOpenGL.cmake:
 
+/usr/lib/cmake/GTest/GTestTargets-none.cmake:
+
+/usr/lib/cmake/GTest/GTestConfigVersion.cmake:
+
+/usr/lib/cmake/GTest/GTestConfig.cmake:
+
 /usr/include/wchar.h:
 
 /usr/include/sys/types.h:
@@ -1317,13 +1330,27 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/stdio.h:
 
-/usr/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
+/usr/include/c++/15.1.1/chrono:
 
-/usr/include/qt6/QtWidgets/qwidget.h:
+/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake:
+
+/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
+
+/usr/include/qt6/QtWidgets/qmainwindow.h:
 
 /usr/include/c++/15.1.1/tr1/poly_hermite.tcc:
 
+/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
+
+/usr/include/c++/15.1.1/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/15.1.1/bits/stl_construct.h:
+
 /usr/include/c++/15.1.1/tr1/gamma.tcc:
+
+/usr/include/qt6/QtGui/qpixelformat.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake:
 
@@ -1388,6 +1415,8 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/include/qt6/QtWidgets/qlabel.h:
 
 /usr/include/c++/15.1.1/climits:
+
+/usr/share/cmake/Modules/GoogleTest.cmake:
 
 /usr/include/qt6/QtCore/qatomic_cxx11.h:
 
@@ -1643,22 +1672,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 
 /usr/include/bits/types/clockid_t.h:
 
-/usr/include/c++/15.1.1/chrono:
-
-/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
-
-/usr/include/c++/15.1.1/bits/stl_construct.h:
-
-/usr/include/c++/15.1.1/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
-
-/usr/include/qt6/QtWidgets/qmainwindow.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake:
@@ -1668,6 +1681,10 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/include/asm/posix_types_64.h:
 
 /usr/include/c++/15.1.1/bits/concept_check.h:
+
+/usr/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
+
+/usr/include/qt6/QtWidgets/qtextbrowser.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -1774,14 +1791,6 @@ text_editor_autogen/timestamp: /home/ksi/reps/text_editor/CMakeLists.txt \
 /usr/include/c++/15.1.1/iterator:
 
 .qtc/package-manager/auto-setup.cmake:
-
-/usr/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
-
-/usr/include/qt6/QtWidgets/qtextbrowser.h:
-
-/usr/include/qt6/QtGui/qpixelformat.h:
-
-/home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp:
 
 /usr/include/sched.h:
 
@@ -2215,6 +2224,10 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 
 /usr/include/pthread.h:
 
+/usr/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake:
+
+/usr/include/qt6/QtWidgets/qwidget.h:
+
 /usr/include/qt6/QtCore/QList:
 
 /usr/include/qt6/QtWidgets/qabstractscrollarea.h:
@@ -2550,6 +2563,8 @@ CMakeFiles/4.0.3-dirty/CMakeSystem.cmake:
 /usr/include/qt6/QtGui/qfontdatabase.h:
 
 /usr/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
+
+/usr/lib/cmake/GTest/GTestTargets.cmake:
 
 /usr/include/c++/15.1.1/ext/aligned_buffer.h:
 

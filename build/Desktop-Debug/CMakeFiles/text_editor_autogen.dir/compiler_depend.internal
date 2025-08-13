@@ -32,7 +32,6 @@
  /home/ksi/reps/text_editor/styleform.h
  /home/ksi/reps/text_editor/styleviewwidget.cpp
  /home/ksi/reps/text_editor/styleviewwidget.h
- /home/ksi/reps/text_editor/tests/tst_styleclasstest.cpp
  /usr/bin/cmake
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
@@ -555,6 +554,10 @@
  /usr/include/sys/types.h
  /usr/include/time.h
  /usr/include/wchar.h
+ /usr/lib/cmake/GTest/GTestConfig.cmake
+ /usr/lib/cmake/GTest/GTestConfigVersion.cmake
+ /usr/lib/cmake/GTest/GTestTargets-none.cmake
+ /usr/lib/cmake/GTest/GTestTargets.cmake
  /usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake
  /usr/lib/cmake/Qt6/FindWrapAtomic.cmake
  /usr/lib/cmake/Qt6/FindWrapOpenGL.cmake
@@ -875,6 +878,7 @@
  /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake
  /usr/share/cmake/Modules/Compiler/GNU.cmake
  /usr/share/cmake/Modules/FeatureSummary.cmake
+ /usr/share/cmake/Modules/FindGTest.cmake
  /usr/share/cmake/Modules/FindOpenGL.cmake
  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake
  /usr/share/cmake/Modules/FindPackageMessage.cmake
@@ -882,6 +886,7 @@
  /usr/share/cmake/Modules/FindThreads.cmake
  /usr/share/cmake/Modules/FindVulkan.cmake
  /usr/share/cmake/Modules/GNUInstallDirs.cmake
+ /usr/share/cmake/Modules/GoogleTest.cmake
  /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake
  /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake
  /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake
