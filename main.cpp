@@ -1,7 +1,7 @@
 #define DEBUG
 
 // #include "widget.h"
-#include "mainwindow.h"
+#include "ui/mainwindow.h"
 
 #include <QApplication>
 

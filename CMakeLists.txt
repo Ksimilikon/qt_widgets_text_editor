@@ -14,8 +14,8 @@ qt_add_executable(text_editor
     main.cpp
 
 
-    mainlayout.h mainlayout.cpp
-    mainwindow.h mainwindow.cpp
+    ui/mainlayout.h ui/mainlayout.cpp
+    ui/mainwindow.h ui/mainwindow.cpp
     styleclass.h styleclass.cpp
     preprocessor/preprocessor.h preprocessor/preprocessor.cpp
     io/saver.h io/saver.cpp
@@ -23,9 +23,9 @@ qt_add_executable(text_editor
     io/export.h io/export.cpp
     preprocessor/textsegment.h preprocessor/textsegment.cpp
     preprocessor/textparagraph.h preprocessor/textparagraph.cpp
-    styleform.h styleform.cpp
-    styleviewwidget.h styleviewwidget.cpp
-    namefileform.h namefileform.cpp
+    ui/styleviewwidget.h ui/styleviewwidget.cpp
+    ui/forms/styleform.h ui/forms/styleform.cpp
+    ui/forms/namefileform.h ui/forms/namefileform.cpp
 
 )
 add_executable(tests

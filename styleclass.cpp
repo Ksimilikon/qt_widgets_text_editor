@@ -25,8 +25,8 @@ QString StyleClass::getStyleCss(QString name){
         p = styles[name];
     }
     result.append("."+name+"{");
-    result.append("color:"+p.textColor.name()+";");
-    result.append("background-color:"+p.bgColor.name()+";");
+    result.append("color:"+p.textColor.name(QColor::HexRgb)+";");
+    result.append("background-color:"+p.bgColor.name(QColor::HexArgb)+";");
     if(p.fontSize == std::floor(p.fontSize)){
         result.append("font-size:"+QString::number(static_cast<int>(p.fontSize))+"px;");
     }

@@ -1,9 +1,0 @@
-/home/ksi/reps/text_editor/build/CMakeFiles/text_editor.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/edit_cache.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/rebuild_cache.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/list_install_components.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/install.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/install/local.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/install/strip.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/text_editor_autogen_timestamp_deps.dir
-/home/ksi/reps/text_editor/build/CMakeFiles/text_editor_autogen.dir
